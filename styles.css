@@ -1,0 +1,63 @@
+body {
+    /* Page background gradient and base text styles */
+    background: linear-gradient(120deg, #292e49 40%, #536976 100%);
+    color: #e5e6ea;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* Header background, text color, center alignment and spacing */
+    background: #21243d;
+    color: #fffaec;
+    text-align: center;
+    padding: 2em 0 1em 0;
+    border-bottom: 3px solid #a2d4ec;
+}
+
+main {
+    /* Constrained content area with translucent background, rounded corners and shadow */
+    max-width: 700px;
+    margin: 28px auto;
+    padding: 0 20px;
+    background: rgba(34, 36, 47, 0.8);
+    border-radius: 14px;
+    box-shadow: 0 8px 28px rgba(25, 34, 49, 0.15);
+}
+
+h2 {
+    /* Accent color for headings */
+    color: #a2d4ec;
+}
+
+.steps ol {
+    /* Styled ordered list container used for step-by-step instructions */
+    background: #384256;
+    padding: 14px 24px;
+    border-radius: 8px;
+    margin: 12px 0;
+}
+
+.steps li {
+    /* Spacing between individual list items */
+    margin-bottom: 9px;
+}
+
+.highlight {
+    /* Callout box style: darker background with a colored left border for emphasis */
+    margin-top: 2em;
+    background: #393e46;
+    border-left: 6px solid #a2d4ec;
+    padding: 18px 20px;
+    border-radius: 6px;
+}
+
+footer {
+    /* Footer text styling and spacing from main content */
+    text-align: center;
+    color: #a2d4ec;
+    margin-top: 44px;
+    font-size: 1em;
+}
+
