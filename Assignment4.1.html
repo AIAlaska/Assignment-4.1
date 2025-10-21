@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Document metadata and page title -->
+    <meta charset="UTF-8">
+    <title>Custom ECU Flashing | Assignment 4.1</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Custom ECU Flashing: DIY Guide</h1>
+        <p>A visually creative HTML/CSS assignment for CSC104</p>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- First section describing ECU flashing -->
+        <section>
+            <h2>What is ECU Flashing?</h2>
+            <!-- Paragraph explains the concept -->
+            <p>ECU (Engine Control Unit) flashing is the process of updating or modifying the software/firmware on your vehicle’s ECU to achieve performance, efficiency, or security goals. Custom ECU flashing tools allow owners to upload new maps, delete features, or bypass immobilizers like PATS for off-road or restoration use. In the DIY world of automotive maintenance and repair, ECU flashing is a must have tool! </p>
+        </section>
+
+        <!-- Ordered list of flashing steps -->
+        <section class="steps">
+            <h2>Flashing Steps</h2>
+            <ol>
+                <!-- Each list item is a single step; CSS targets .steps ol for styling -->
+                <li>Connect a compatible interface OBD II or bench programmer to your vehicle.</li>
+                <li>Create or download the desired bin/hex file (e.g., PATS delete, custom tune).</li>
+                <li>Use flashing software (PCM Hammer, HPTuners, Forscan, etc.) to back up your stock ECU data.</li>
+                <li>Flash the custom firmware</li>
+                <li>Cycle the ignition, verify success, and re-check with diagnostic tools.</li>
+            </ol>
+        </section>
+
+        <!-- Highlighted callout box for reasons to flash -->
+        <section class="highlight">
+            <h2>Why Custom Flashing?</h2>
+            <!-- Bullet list of benefits; visually emphasized by .highlight styles -->
+            <ul>
+                <li>Unlock hidden performance with custom maps</li>
+                <li>Remove immobilizer restrictions (for legal uses only)</li>
+                <li>Enhance diagnostics and repairs on classic trucks</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Assignment by Joshua Wilson | CSC104 | Fall 2025</p>
+    </footer>
+</body>
+</html>
